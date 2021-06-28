@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service Bucket {
+  rpc GetInformation(InformationRequest) returns (InformationResponse) {}
+}
+
+message InformationRequest{
+  string bucket_id = 1;
+}
+
+message InformationResponse{
+  string bucket_id = 1;
+  string bucket_name = 2;
+  string user_name = 3;
+}
