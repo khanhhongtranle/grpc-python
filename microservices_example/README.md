@@ -34,3 +34,7 @@ TABLE BUCKETS(
 ### Run bucket client:
 `cd ./microservices_example/bucket-service/ `
 `python client.py`
+
+
+## Git tutorial: 
+https://github.com/danieldanuega/python-grpc
